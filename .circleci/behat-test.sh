@@ -52,7 +52,7 @@ export RELOCATED_WP_ADMIN=TRUE
 # Wake the multidev environment before running tests
 terminus -n env:wake $TERMINUS_SITE.$TERMINUS_ENV
 
-# Ping wp-cli to start ssh with the app server
+# Ping wp-cli to start ssh with the app server.
 terminus -n wp $TERMINUS_SITE.$TERMINUS_ENV -- cli version
 
 # Run the Behat tests
