@@ -7,7 +7,6 @@ Feature: Change blogname and blogdescription (no-js)
     Given I am logged in as an admin
     Given I am on the dashboard
 
-
   Scenario: Saving blogname
     Given I go to menu item "Settings > General"
     When I fill in "blogname" with "Awesome WordHat Test Site"
