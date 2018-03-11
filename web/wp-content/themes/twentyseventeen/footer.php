@@ -18,7 +18,7 @@
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="wrap">
-				<h1>from circle</h1>
+				<h1>from circle :)</h1>
 				<?php
 				get_template_part( 'template-parts/footer/footer', 'widgets' );
 
